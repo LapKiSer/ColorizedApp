@@ -78,7 +78,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Emb-vj-3KW" userLabel="Slider Stack View">
                                         <rect key="frame" x="100" y="0.0" width="298" height="130"/>
                                         <subviews>
-                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="yHh-Ju-48J">
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="yHh-Ju-48J">
                                                 <rect key="frame" x="-2" y="0.0" width="302" height="31"/>
                                                 <color key="minimumTrackTintColor" systemColor="systemRedColor"/>
                                                 <color key="maximumTrackTintColor" systemColor="systemGray2Color"/>
@@ -86,7 +86,7 @@
                                                     <action selector="redSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="stx-Oi-gdE"/>
                                                 </connections>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Y26-an-G0u">
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Y26-an-G0u">
                                                 <rect key="frame" x="-2" y="50" width="302" height="31"/>
                                                 <color key="minimumTrackTintColor" systemColor="systemGreenColor"/>
                                                 <color key="maximumTrackTintColor" systemColor="systemGray2Color"/>
@@ -94,7 +94,7 @@
                                                     <action selector="greenSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="QIV-2J-bSS"/>
                                                 </connections>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="hIC-rS-djK">
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="hIC-rS-djK">
                                                 <rect key="frame" x="-2" y="100" width="302" height="31"/>
                                                 <color key="minimumTrackTintColor" systemColor="systemBlueColor"/>
                                                 <color key="maximumTrackTintColor" systemColor="systemGray2Color"/>
