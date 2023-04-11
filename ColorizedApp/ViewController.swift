@@ -34,6 +34,7 @@ class ViewController: UIViewController {
             blue: blueUIColor,
             alpha: 1
         )
+        
     }
     
     @IBAction func redSliderAction() {
